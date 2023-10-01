@@ -17,6 +17,7 @@ physics_layer_0/collision_layer = 1
 sources/2 = SubResource("TileSetAtlasSource_4i2we")
 
 [node name="World" type="Node2D"]
+scale = Vector2(0.7, 0.7)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_1y8tn")
